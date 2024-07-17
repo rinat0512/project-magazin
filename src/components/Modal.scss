@@ -1,0 +1,36 @@
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: rgb(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.modal__block {
+    max-width: 230px;
+    width: 100%;
+    padding: 10px 14px 10px 16px;
+    border-radius: 20px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button__close {
+    background: black;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.img__tg {
+    width: 200px;
+    height: 200px;
+}
